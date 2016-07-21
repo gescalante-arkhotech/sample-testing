@@ -1,0 +1,11 @@
+{
+  "required": {
+    "php": ">=5.6.0"
+  },
+  "required-dev": {
+    "phpunit/phpunit": "5.4.x-dev" 
+  },
+  "autoload": {
+    "psr-0": {"Simple" : "src/"}
+  }
+}
