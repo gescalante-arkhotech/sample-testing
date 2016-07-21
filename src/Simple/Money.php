@@ -14,6 +14,8 @@
  * @version    $Revision$
  * @link       /sample/app/Money.php Class Money
  */
+namespace Simple;
+
 class Money
 {
     private $amount;
