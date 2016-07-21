@@ -12,7 +12,7 @@ before_script:
 script:
   - phpunit --coverage-text
   - phpcs --standard=psr2 ./src
-  - ./vendor/bin/phpmd src/ text codesize,unusedcode,naming,phpmd.xml
+  - ./vendor/bin/phpmd src/ text codesize,unusedcode,naming
 
 # fast_finish: If your build fails do not continue trying to build, just stop.
 matrix:
