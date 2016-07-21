@@ -3,9 +3,16 @@ language: php
 php:
   - 5.6
 
+before_script:
+  - pear install PHP_CodeSniffer
+  - phpenv rehash
+  - composer install
+
 # Commands you want to run that will verify your build.
 script:
   - phpunit --coverage-text
+  - phpcs --standard=psr2 ./src
+  - ./vendor/bin/phpmd src/ text codesize,unusedcode,naming,phpmd.xml
 
 # fast_finish: If your build fails do not continue trying to build, just stop.
 matrix:
