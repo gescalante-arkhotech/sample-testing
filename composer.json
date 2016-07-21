@@ -1,11 +1,22 @@
 {
-  "required": {
-    "php": ">=5.6.0"
-  },
-  "required-dev": {
-    "phpunit/phpunit": "5.4.x-dev" 
-  },
-  "autoload": {
-    "psr-0": {"Simple" : "src/"}
-  }
+    "name": "gescalante-arkhotech/sample-ci",
+    "description": "Un pequeño ejemplo para mostrar un ambiente de CI en Travis.",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/gescalante-arkhotech/sample-testing",
+    "authors": [
+        {
+            "name": "Geovanni Escalante",
+            "email": "gescalante@arkho.tech",
+            "role": "desarrollador"
+        }
+    ],
+    "required": {
+        "php": ">=5.6.0"
+    },
+    "required-dev": {
+        "phpunit/phpunit": "5.4.x-dev" 
+    },
+    "autoload": {
+        "psr-0": {"Simple" : "src/"}
+    }
 }

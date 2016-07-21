@@ -9,7 +9,7 @@
  *
  * @category   UnitTests
  * @package    UnitTests
- * @author     Geovanni Escalante <gescalante@xpectrumtech.com>
+ * @author     Geovanni Escalante <gescalante@arkho.tech>
  * @license    http://lic.org/lic.php  HCC
  * @version    $Revision$
  * @link       /sample/tests/phpunit/MoneyTest.php MoneyTest Test
@@ -18,9 +18,8 @@
 /**
  * Include the PHPUnit Framwork so we can extend the TestCase class
  */
-use PHPUnit\Framework\TestCase;
 
-class MoneyTest extends TestCase
+class MoneyTest extends PHPUnit_Framework_TestCase
 {
     public function testCanBeNegated()
     {

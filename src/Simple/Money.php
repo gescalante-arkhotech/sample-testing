@@ -9,7 +9,7 @@
  *
  * @category   Money
  * @package    Money
- * @author     Geovanni Escalante <gescalante@xpectrumtech.com>
+ * @author     Geovanni Escalante <gescalante@arkho.tech>
  * @license    http://lic.org/lic.php  HCC
  * @version    $Revision$
  * @link       /sample/app/Money.php Class Money
