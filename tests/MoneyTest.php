@@ -24,7 +24,7 @@ class MoneyTest extends TestCase
 {
     public function testCanBeNegated()
     {
-        require_once __DIR__.'/../../app/Money.php';
+        require_once __DIR__.'/../src/Simple/Money.php';
         
         $a = new Money(1);
         $b = $a->negate();
