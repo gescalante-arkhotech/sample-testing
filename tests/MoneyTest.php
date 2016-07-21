@@ -18,7 +18,7 @@
 /**
  * Include the PHPUnit Framwork so we can extend the TestCase class
  */
-use phpunit\framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class MoneyTest extends TestCase
 {
