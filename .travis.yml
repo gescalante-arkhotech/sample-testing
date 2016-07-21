@@ -6,7 +6,7 @@ php:
 before_script:
   - pear install PHP_CodeSniffer
   - phpenv rehash
-  - composer install
+  - travis_retry composer install --no-interaction --prefer-source
 
 # Commands you want to run that will verify your build.
 script:

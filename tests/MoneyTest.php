@@ -12,17 +12,18 @@
  * @author     Geovanni Escalante <gescalante@arkho.tech>
  * @license    http://lic.org/lic.php  HCC
  * @version    $Revision$
- * @link       /sample/tests/phpunit/MoneyTest.php MoneyTest Test
+ * @link       /tests/MoneyTest.php MoneyTest Test
  */
 
 /**
  * Include the PHPUnit Framwork so we can extend the TestCase class
  */
+use Simple\Money as Money;
 
 class MoneyTest extends PHPUnit_Framework_TestCase
 {
     public function testCanBeNegated()
-    {
+    {        
         require_once __DIR__.'/../src/Simple/Money.php';
         
         $a = new Money(1);
